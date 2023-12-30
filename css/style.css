@@ -4,6 +4,8 @@
     --secondary: #0DD3F1;
     --light: #F6F7FC;
     --dark: #15233C;
+    --twc: #be2326;
+    --green: #49B265;
 }
 
 .back-to-top {
@@ -43,13 +45,13 @@
 }
 
 .btn.btn-primary:hover {
-    background: var(--secondary);
-    border-color: var(--secondary);
+    background: var(--green);
+    border-color: var(--green);
 }
 
 .btn.btn-secondary:hover {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--twc);
+    border-color: var(--light);
 }
 
 .btn-square {
@@ -98,7 +100,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--twc);
 }
 
 .navbar .dropdown-toggle::after {
@@ -167,8 +169,8 @@
 .carousel-control-next-icon {
     width: 3rem;
     height: 3rem;
-    background-color: var(--primary);
-    border: 15px solid var(--primary);
+    background-color: var(--twc);
+    border: 15px solid var(--twc);
     border-radius: 50px;
 }
 
@@ -243,7 +245,7 @@
 }
 
 .container.facts .facts-text {
-    background: linear-gradient(rgba(1, 95, 201, .9), rgba(1, 95, 201, .9)), url(../img/carousel-1.jpg) center right no-repeat;
+    background: linear-gradient(rgba(81, 81, 81, .9), rgba(81, 81, 81, .9)), url(../img/carousel-1.jpg) center right no-repeat;
     background-size: cover;
 }
 
@@ -294,7 +296,7 @@
 
 /*** Appointment ***/
 .appointment {
-    background: linear-gradient(rgba(1, 95, 201, .9), rgba(1, 95, 201, .9)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(81, 81, 81, .9), rgba(81, 81, 81, .9)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
 }
 
